@@ -156,6 +156,8 @@ In this step, we will target each card using the input fields that we created.
 const id = document.getElementById('idInput')
 const color = document.getElementById('colorInput')
 
+
+
 const setCard = () => {
     const card = document.getElementById(id.value)
     console.log(card)
